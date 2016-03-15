@@ -28,73 +28,49 @@
 
     <h1>教育背景</h1>
     <h1>技能专长</h1>
-    <h2>大数据</h2>
-    <ul>
-        <li>Hadoop
-        <li>MapReduce</li>
-        <li>Hive</li>
-        <li>Sqoop</li>
-        <li>HBase</li>
-        <li>Flume</li>
-    </ul>
 
-    <h2>数据可视化</h2>
-    <ul>
-        <li>ECharts</li>
-    </ul>
+### 大数据
+* Hadoop
+* MapReduce
+* Hive
+* Sqoop
+* HBase
+* Flume
 
-    <h2>运维监控</h2>
-     <ul>
-         <li>Nagios
-             <ul>
-                 <li>check_cpu</li>
-                 <li>check_redis：链接数，QPS，内存，内存峰值，Session数</li>
-                 <li>check_gearman</li>
-             </ul>
-         </li>
-     </ul>
+### 数据可视化
+* ECharts
 
-    <!--<h2>BI</h2>-->
+### 运维监控
+* Nagios
+ * check_cpu
+ * check_redis：链接数，QPS，内存，内存峰值，Session数
+ * check_gearman
 
-    <h2>编程语言</h2>
-    <ul>
-        <li>PHP
-            <ul>
-                <li>Laravel</li>
-                <li>ThinkPHP</li>
-                <li>ZenCart</li>
-                <li>Wordpress</li>
-            </ul>
-        </li>
-        <li>Java
-            <ul>
-                <li>Maven</li>
-            </ul>
-        </li>
-    </ul>
+### BI
+ * 电商
 
-    <h2>数据库</h2>
-    <ul>
-        <li>MySQL
-            <ul>
-                <li>MySQL Workbench</li>
-            </ul>
-        </li>
-    </ul>
+### 编程语言
+* PHP
+ * Laravel
+ * ThinkPHP
+ * ZenCart
+ * Wordpress
+* Java
+ * Maven
 
-    <h2>NoSQL</h2>
-    <ul>
-        <li>Redis</li>
-    </ul>
+### 数据库
+* MySQL
+ * MySQL Workbench
 
-    <h2>Web</h2>
-    <ul>
-        <li>Linux</li>
-        <li>Nginx</li>
-        <li>Apache</li>
-        <li>Solr</li>
-    </ul>
+### NoSQL
+* Redis
 
-## 版本控制
+### Web
+* Linux
+* Nginx
+* Apache
+* Solr
+
+### 版本控制
  * SVN
  * Git
