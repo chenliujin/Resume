@@ -1,40 +1,34 @@
-<html>
-<head>
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="content">
     <table>
         <tr>
-            <td>ÐÕÃû</td>
-            <td>³ÂÁø½õ</td>
+            <td>å§“å</td>
+            <td>é™ˆæŸ³é”¦</td>
         </tr>
     </table>
-    
-    <h1>ÁªÏµ·½Ê½</h1>
-    <p>µç»°£º13670070840</p>
-    <p>QQ£º271757232</p>
-    <p>ÓÊÏä£ºliujin.chen@qq.com</p>
-    
-    <h1>ÆÚÍûÐ½×Ê</h1>
+
+    <h1>è”ç³»æ–¹å¼</h1>
+    <p>ç”µè¯ï¼š13670070840</p>
+    <p>QQï¼š271757232</p>
+    <p>é‚®ç®±ï¼šliujin.chen@qq.com</p>
+
+    <h1>æœŸæœ›è–ªèµ„</h1>
     <p>16k - 18k</p>
-    
-    <h1>¹¤×÷¾­Àú</h1>
-    
-    <h2>ÊýÂëÊ±´ú</h2>
-    <h2>Ó¢ÔóÐÅÏ¢¿Æ¼¼ÓÐÏÞ¹«Ë¾</h2>
-    <h2>´óÕ¹ÐÅÏ¢¿Æ¼¼£¨ÉîÛÚ£©ÓÐÏÞ¹«Ë¾</h2>
-    <h2>ÔÆÆð¸Û¿Æ¼¼£¨ÉîÛÚ£©ÓÐÏÞ¹«Ë¾</h2>
-    <h2>¶«Ý¸»ªÐÇÑÛ¾µÖÆÔìÓÐÏÞ¹«Ë¾</h2>
-    <h2>¶«Ý¸ºáÁ¤ÐñºÍµçÆ÷ÖÆÆ·³§</h2>
-    
-    
-    <h1>ÏêÏ¸¾­Àú</h1>
-    <h3>2013.05 - ÖÁ½ñ</h3>
-    
-    <h1>½ÌÓý±³¾°</h1>
-    <h1>¼¼ÄÜ×¨³¤</h1>
-    <h2>´óÊý¾Ý</h2>
+
+    <h1>å·¥ä½œç»åŽ†</h1>
+
+    <h2>æ•°ç æ—¶ä»£</h2>
+    <h2>è‹±æ³½ä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸</h2>
+    <h2>å¤§å±•ä¿¡æ¯ç§‘æŠ€ï¼ˆæ·±åœ³ï¼‰æœ‰é™å…¬å¸</h2>
+    <h2>äº‘èµ·æ¸¯ç§‘æŠ€ï¼ˆæ·±åœ³ï¼‰æœ‰é™å…¬å¸</h2>
+    <h2>ä¸œèŽžåŽæ˜Ÿçœ¼é•œåˆ¶é€ æœ‰é™å…¬å¸</h2>
+    <h2>ä¸œèŽžæ¨ªæ²¥æ—­å’Œç”µå™¨åˆ¶å“åŽ‚</h2>
+
+
+    <h1>è¯¦ç»†ç»åŽ†</h1>
+    <h3>2013.05 - è‡³ä»Š</h3>
+
+    <h1>æ•™è‚²èƒŒæ™¯</h1>
+    <h1>æŠ€èƒ½ä¸“é•¿</h1>
+    <h2>å¤§æ•°æ®</h2>
     <ul>
         <li>Hadoop
         <li>MapReduce</li>
@@ -43,26 +37,26 @@
         <li>HBase</li>
         <li>Flume</li>
     </ul>
-    
-    <h2>Êý¾Ý¿ÉÊÓ»¯</h2>
+
+    <h2>æ•°æ®å¯è§†åŒ–</h2>
     <ul>
         <li>ECharts</li>
     </ul>
-    
-    <h2>ÔËÎ¬¼à¿Ø</h2>
+
+    <h2>è¿ç»´ç›‘æŽ§</h2>
      <ul>
          <li>Nagios
              <ul>
                  <li>check_cpu</li>
-                 <li>check_redis£ºÁ´½ÓÊý£¬QPS£¬ÄÚ´æ£¬ÄÚ´æ·åÖµ£¬SessionÊý</li>
+                 <li>check_redisï¼šé“¾æŽ¥æ•°ï¼ŒQPSï¼Œå†…å­˜ï¼Œå†…å­˜å³°å€¼ï¼ŒSessionæ•°</li>
                  <li>check_gearman</li>
              </ul>
          </li>
      </ul>
-    
-    <!--<h2>BI</h2>-->    
-    
-    <h2>±à³ÌÓïÑÔ</h2>
+
+    <!--<h2>BI</h2>-->
+
+    <h2>ç¼–ç¨‹è¯­è¨€</h2>
     <ul>
         <li>PHP
             <ul>
@@ -72,14 +66,14 @@
                 <li>Wordpress</li>
             </ul>
         </li>
-        <li>Java    
+        <li>Java
             <ul>
                 <li>Maven</li>
             </ul>
         </li>
     </ul>
-    
-    <h2>Êý¾Ý¿â</h2>
+
+    <h2>æ•°æ®åº“</h2>
     <ul>
         <li>MySQL
             <ul>
@@ -87,12 +81,12 @@
             </ul>
         </li>
     </ul>
-    
+
     <h2>NoSQL</h2>
     <ul>
         <li>Redis</li>
     </ul>
-    
+
     <h2>Web</h2>
     <ul>
         <li>Linux</li>
@@ -100,12 +94,7 @@
         <li>Apache</li>
         <li>Solr</li>
     </ul>
-    
-    <h2>°æ±¾¿ØÖÆ</h2>
-    <ul>
-        <li>SVN</li>
-        <li>Git</li>
-    </ul>    
-</div>
-</body>
-</html>
+
+## ç‰ˆæœ¬æŽ§åˆ¶
+ * SVN
+ * Git
