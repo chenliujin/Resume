@@ -52,6 +52,7 @@
 ### 编程语言
 * PHP
  * Laravel
+   * 兼容 PHP 原生 session，降低重构复杂度
  * ThinkPHP
  * ZenCart
  * Wordpress
