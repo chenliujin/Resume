@@ -18,6 +18,8 @@
  * Balance
  * 压缩文档（gz），节省磁盘空间
 1. HBase 环境搭建
+1. Spark
+ * Hive on Spark
 1. Hive 数据仓库
  * Hive Table
  * HSQL
@@ -40,6 +42,7 @@
 
 #### TinyDeal 电商网站
 1. 页面静态化
+ * xcache
  * 文件缓存
  * Redis 缓存
 
