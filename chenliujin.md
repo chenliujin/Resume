@@ -49,6 +49,15 @@
  * xcache
  * 文件缓存
  * Redis 缓存
+1. Laravel
+ * Laravel 兼容共享 Zencart 的 session
+ * Web Service
+ * 网站重构
+1. 活动
+ * 抽奖、转盘、老虎机、砸蛋...
+1. affiliate
+ * 内部 affiliate & 商业 affiliate
+1. Tools
 
 
 ### 英泽信息科技有限公司
