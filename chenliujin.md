@@ -13,6 +13,7 @@
 ### 数码时代
 
 #### Web Analytics
+软件环境：CentOS, Hadoop, Yarn, Hive, HBase, Sqoop, MySQL, Nagios, Flume, Ganglia, Spark, Maven, MapReduce, Java
 1. Hadoop集群环境搭建，管理，维护
  * 中间结果文件清理
  * Balance
@@ -27,12 +28,14 @@
  * Hive Table 映射 HBase Table，通过 Hive 处理 HBase 的数据
  * 性能优化
 1. ETL
- * Extract<br/>
+ * Extract（抽取）<br/>
    a. 通过 Sqoop 导入 MySQL 的数据<br />
    b. 导入日志文件数据：nginx access log，其它类型的日志等
- * Transform<br />
-   Spark
- * Load
+ * Transform（转换）<br />
+   a. 编写 Java MapReduce
+   b. 打包可执行 jar 文件
+   c. 在集群上运行 Java MapReduce
+ * Load（加载）
 1. 数据可视化
   * ECharts
   * Highcharts
@@ -49,6 +52,8 @@
  * xcache
  * 文件缓存
  * Redis 缓存
+1. Solr 搜索引擎
+ * Suggest 智能联想提示：根据用户的输入进行智能提示。
 1. Laravel
  * Laravel 兼容共享 Zencart 的 session
  * Web Service
@@ -120,3 +125,7 @@
 ### 版本控制
  * SVN
  * Git
+
+### CentOS Web 服务器安装
+* iptables 初始化
+* 反爬虫脚本
