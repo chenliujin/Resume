@@ -28,14 +28,14 @@
  * Hive Table 映射 HBase Table，通过 Hive 处理 HBase 的数据
  * 性能优化
 1. ETL
- * Extract（抽取）<br/>
+ * Extract<br/>
    a. 通过 Sqoop 导入 MySQL 的数据<br />
    b. 导入日志文件数据：nginx access log，其它类型的日志等
- * Transform（转换）<br />
-   a. 编写 Java MapReduce
-   b. 打包可执行 jar 文件
+ * Transform<br />
+   a. 编写 Java MapReduce<br />
+   b. 打包可执行 jar 文件<br />
    c. 在集群上运行 Java MapReduce
- * Load（加载）
+ * Load
 1. 数据可视化
   * ECharts
   * Highcharts
