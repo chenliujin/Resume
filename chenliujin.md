@@ -6,14 +6,11 @@
 * QQ：271757232
 * 邮箱：liujin.chen@qq.com
 
-## 3. 期望薪资
-16k
-
 ## 4. 工作经历
 ### 数码时代
 
 #### Web Analytics
-软件环境：CentOS, Hadoop, Yarn, Hive, HBase, Sqoop, MySQL, Nagios, Flume, Ganglia, Spark, Maven, MapReduce, Java
+软件环境：CentOS, Hadoop, Yarn, Hive, HBase, Sqoop, MySQL, Nagios, Flume, Ganglia, Spark, Maven, MapReduce, Java, Spark
 1. Hadoop集群环境搭建，管理，维护
  * 中间结果文件清理
  * Balance
@@ -32,9 +29,8 @@
    a. 通过 Sqoop 导入 MySQL 的数据<br />
    b. 导入日志文件数据：nginx access log，其它类型的日志等
  * Transform<br />
-   a. 编写 Java MapReduce<br />
-   b. 打包可执行 jar 文件<br />
-   c. 在集群上运行 Java MapReduce
+   a. 噪声数据过滤：css/js/jpg/...<br />
+   b. 日期格式化：24/May/2016:00:27:18 +0800
  * Load
 1. 数据可视化
   * ECharts
