@@ -7,6 +7,35 @@
 * 邮箱：liujin.chen@qq.com
 
 ## 4. 工作经历
+
+# 深圳微数聚软件服务有限公司（2017.02 - 2018.09）
+
+## 1. 数据分析
+
+环境: Kylin/Ambari/HDFS/YARN/MapReduce/Hive/HBase/Sqoop
+
+工作内容：
+* 搭建大数据平台
+* OLAP: 数据建模/维度建模（日期维度/层级维度）
+* Cube 设计: 维度/度量
+* ETL
+  - Sqoop 导入 MySQL 数据到 Hive
+  - 源数据转换成星型模型
+  - 源数据清洗：空值/格式转换/异常数据处理
+* 数据可视化
+
+## 2. 路内停车系统
+
+环境: Python/Solr/MySQL/MQTT/NodeJS/Vue/Docker/Kubernetes/阿里云/腾讯云
+
+工作内容:
+* Docker Registry / Base Image
+* Kubernetes：资源限制/滚动升级/动态伸缩
+* RESTful API
+* MySQL 主从
+* Zabbix + Grafana：CPU，内存，网络，磁盘I/O，磁盘空间，API
+* ELK: access log
+
 ### 数码时代
 
 #### Web Analytics
@@ -16,28 +45,15 @@
  * Balance
  * 压缩文档（gz），节省磁盘空间
 1. HBase 环境搭建
-1. Spark
- * Hive on Spark
 1. Hive 数据仓库
- * Hive Table
- * HSQL
- * Partition
- * Hive Table 映射 HBase Table，通过 Hive 处理 HBase 的数据
- * 性能优化
 1. ETL
- * Extract<br/>
-   a. 通过 Sqoop 导入 MySQL 的数据<br />
-   b. 导入日志文件数据：nginx access log，其它类型的日志等
+ * Sqoop 导入 MySQL 的数据
  * Transform<br />
    a. 噪声数据过滤：css/js/jpg/...<br />
    b. 日期格式化：24/May/2016:00:27:18 +0800
  * Load
 1. 数据可视化
-  * ECharts
-  * Highcharts
-1. 集群监控
- * Nagios
- * Ganglia
+1. 集群监控：Ganglia
 1. BI KPI
  * 订单趋势，客单价，国家销售趋势，国家销售趋势排名...
  * 流量分析，转化分析，加载时间，产品点击，爬虫分析...
@@ -73,55 +89,69 @@
 
 ## 教育背景
 
-## 技能专长
+---
 
-### 大数据
-* Hadoop
-* MapReduce
-* Hive
-* Sqoop
-* HBase
-* Flume
+# 技能专长
 
-### 数据可视化
-* ECharts
+## 1. 编程语言：Python/PHP/NodeJS
 
-### 运维监控
-* Nagios
- * check_cpu
- * check_redis：链接数，QPS，内存，内存峰值，Session数
- * check_gearman
+## 2. 大数据
+* Ambari/HDFS/YARN/MapReduce/HBase/Hive/Sqoop/Flume/Kylin
+* OLAP: 维度建模
+* ETL
+* 数据可视化：ECharts
 
-### BI
- * 电商
+## 3. 机器学习
+* TensorFlow
 
-### 编程语言
-* PHP
- * Laravel
-   * 兼容 PHP 原生 session，降低重构复杂度
- * ThinkPHP
- * ZenCart
- * Wordpress
-* Java
- * Maven
 
-### 数据库
-* MySQL
- * MySQL Workbench
 
-### NoSQL
-* Redis
+# 算法
 
-### Web
-* Linux
-* Nginx
-* Apache
-* Solr
 
-### 版本控制
- * SVN
- * Git
 
-### CentOS Web 服务器安装
-* iptables 初始化
-* 反爬虫脚本
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 运维
+- Ansible
+- Zabbix + Grafana
+- ELK
+- CI/CD
+- Docker
+- Kubernetes
+
+- RESTful API
+
+## 数据库
+- MySQL
+
+- MQTT
+- Solr
+- Redis
+- MySQL
+
+
+
+- Spark
+- Storm
+- Flume
+- Kafka
+- ZooKeeper
+
+- 用户画像
+- 推荐系统
