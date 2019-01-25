@@ -13,21 +13,26 @@
 
 ### 1. 数据分析
 
-软件环境: Kylin/Hive/Sqoop/HBase/Python/HDFS/YARN/MapReduce/Solr/Spark/Ambari
+软件环境: Kylin/Hive/Sqoop/HBase/Python/HDFS/YARN/MapReduce/ZooKeeper/Solr/Spark/Ambari
 
 工作内容：
 * 负责大数据平台建设
-* 数据分层
-* OLAP: 数据建模/维度建模（日期维度/层级维度）
-* Cube 设计: 维度/度量
-* ETL
-  - Sqoop 导入 MySQL 数据到 Hive
-  - 源数据转换成星型模型
-  - 源数据清洗：空值/格式转换/异常数据处理
+* 数据分层：ODS层/DW层/OLAP层
+* 数据建模：维度建模/星型模型
+  - 维度：日期维度/层级维度
+  - 度量
+* ETL：生产环境 ---ETL---> ODS ---ETL---> DW
+  - 合并多个数据源的数据：ODS -> DW
+  - 数据清洗
+  - 数据质量
+  - 数据断档
+  - 增量 ETL
 * 性能优化
   - Hive：分区表/桶表
-  - 数据倾斜    
+  - 数据倾斜
 * 数据可视化
+  - RESTful API
+  - ECharts
 
 ### 2. 路内停车系统
 
